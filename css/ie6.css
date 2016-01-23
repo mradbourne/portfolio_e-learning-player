@@ -1,0 +1,18 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.closeBtn {
+	border:2px solid #00add0;
+	top: -40px !important;
+	right: -2px !important;
+}
+
+.volumeCloseBtn {
+	left:15px !important;
+	top:-13px !important;
+	border:2px solid #00add0;
+}
+
+.slide {
+	height:expression(document.body.clientHeight - 80);
+}

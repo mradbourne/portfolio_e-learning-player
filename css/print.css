@@ -1,0 +1,127 @@
+@charset "UTF-8";
+
+@font-face {
+	font-family: 'DINOT';
+	src: url('../fonts/dinot-regular-webfont.eot');
+	src: local('☺'), url('../fonts/dinot-regular-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'DINOT';
+	src: url('../fonts/dinot-bold-webfont.eot');
+	src: local('☺'), url('../fonts/dinot-bold-webfont.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'DINOTMedium';
+	src: url('../fonts/dinot-medium-webfont.eot');
+	src: local('☺'), url('../fonts/dinot-medium-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'DINOTBlack';
+	src: url('../fonts/dinot-black-webfont.eot');
+	src: local('☺'), url('../fonts/dinot-black-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'DINOTLight';
+	src: url('../fonts/dinot-light-webfont.eot');
+	src: local('☺'), url('../fonts/dinot-light-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size:14px;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+#menubar, presentation-counter {
+	display:none;
+}
+.slide {
+	page-break-after:always;
+}
+.counter:before {
+	content: "Slide ";
+	color:#ccc;
+}
+.counter {
+	font-weight:bold;
+	color:#ccc;
+}
+.counter:after {
+	content:" | © College of Estate Management 2010";
+	color:#ccc;
+	font-weight:normal;
+}
+
+#chaptertitle {
+	font-weight:bold;
+	font-size:36px;
+	clear:both;
+	display:block;
+}
+#pagetitle {
+	display:none;
+}
+#title, h2 {
+	font-family: 'DINOT', Helvetica, Arial, sans-serif;
+}
+h2 {
+	font-size:18px;
+}

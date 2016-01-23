@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"  />
+<!--[if lt IE 9]>
+<script src="frameworks/html5.js"></script>
+<![endif]-->
+
+<title>e-Learning</title>
+<script type="text/javascript" src="frameworks/swfobject.js"></script>
+<script type="text/javascript" src="frameworks/jquery-1.4.4.min.js"></script>
+<script type="text/javascript" src="frameworks/jquery-ui-1.8.2.min.js"></script>
+<script type="text/javascript" src="frameworks/jquery.scrollTo-min.js"></script>
+<script type="text/javascript" src="resource/resource.js"></script>
+
+<!--[if IE 6]>
+<link href="css/ie6.css" rel="stylesheet" type="text/css" media="screen" />
+<![endif]-->
+<link href="css/screen.css" rel="stylesheet" type="text/css" media="screen" />
+<link rel="stylesheet" href="css/print.css" type="text/css" media="print" />
+<link href="css/cem-blue/jquery-ui-1.8.2.custom.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body>
+
+<!-- Top bar -->
+<div class="loadingMessage"><img src="images/loading.lightblue.gif" alt="Loading" /></div>
+  <header id="titleBar">
+    <div id="cemlogo-topleft"><img src="images/cemLogo.gif" /></div>
+    <div id="title">
+      <div id="topictitle"></div>
+      <div id="slidetitle"></div>
+    </div>
+  </header> 
+<!-- End top bar -->  
+<!-- Start learning resource -->
+<div class="presentation">
+  <h1>Example e-learning</h1>
+  <div id="welcome-message"><p><strong>Sound is a vital part of this presentation.</strong></p><p>If you do not want to listen to the presentation, please use the subtitle option to display the text instead. The subtitle and sound options are on the next screen.</p></div>
+  <div class="slides">
+
+<section class="topic">
+	<h2>Example resource</h2>
+	<div class="slide">
+		<header>
+			<h3>Goals for a sustainable environment</h3>
+        	</header>
+		<section>
+        	<aside id="showme4th" style="display:none">
+            	<img src="resource/img/the_way_we_live-cityscape.jpg" alt="Cityscape image" width="400" height="318" />
+                <p>There were 39 megacities in 2009. More than 50% of the world&rsquo;s population live in urban areas.</p>
+            </aside>
+                
+			<p id="showme1st" style="display:none">Goals for a sustainable environment are:</p>
+            <ul id="showme2nd" style="display:none">
+            <li>zero carbon</li>
+            <li>preservation of natural habitats</li>
+            <li>healthy societies.</li>
+            </ul>
+            <p id="showme3rd" style="display:none">To achieve a sustainable environment, we need to change our behaviour.</p>
+<audio id="audio-the_way_we_live" controls="controls" autobuffer="autobuffer" ontimeupdate="htmltimeupdate(this)" data-autoplay="true" class="hidden">
+	<source src="resource/audio/the_way_we_live.ogg" type="audio/ogg" />
+	<source src="resource/audio/the_way_we_live.mp3" type="audio/mp3" />
+  	<a id="jwaudio-the_way_we_live" href="http://get.adobe.com/flashplayer/">Get the Flash Player to see this audio player</a>
+</audio>
+
+<div class="transcript">
+    <div lang="en">
+        <h4>Transcript</h4>
+        <p>
+          <span data-begin="0" data-end="18">In the previous section we explored some of the goals for a sustainable built environment. In order to achieve these goals such as zero carbon, preservation of natural habitats and healthy societies, we firstly have to identify why we are living in an unsustainable way.</span>
+        </p>
+        <p>
+          <span data-begin="18" data-end="39">The key overarching driver for a sustainable built environment is our behaviour. This is true for our interaction both with the environment and within our own communities and societies. If the way we behave is unsustainable, by extension changing behavious is the primary barrier to sustainability.</span>
+        </p>
+        <p>
+          <span data-begin="39" data-end="58">The built environment is a key battleground for this behaviour change. More than 50% of the world&rsquo;s population now lives in urban areas and this percentage is set to rise. Given this pressure, traditional methods of developing and using the built environment will become increasingly ineffective.</span>
+        </p>
+    </div>
+</div>
+		</section>
+	</div>
+	<div class="slide">
+		<header>
+			<h3>Ecosystem services</h3>
+        </header>
+		<section>
+        <aside id="showaside1" style="display:none">
+	<h4>Patterns or systems are interconnected</h4>
+	<p>One affects the other.</p>
+</aside>
+
+        <aside id="showaside2" style="display:none">
+	<p>Creating pollution and using resources results in waste and imbalances.</p>
+</aside>
+
+        <aside id="showaside3" style="display:none">
+	<h4>We will now look at the following areas:</h4>
+	<ul>
+    <li>Climate change</li>
+    <li>Transport</li>
+    <li>Resources</li>
+    <li>Waste</li>
+    <li>Water</li>
+    <li>Community</li>
+    </ul>
+</aside>
+<video id="video-ecosystems" width="640" ontimeupdate="htmltimeupdate(this)" data-autoplay="true">
+	<source src="resource/video/ecosystems.ogg" type="video/ogg" />
+	<source src="resource/video/ecosystems.mov" type="video/quicktime" />
+	<a id="jwvideo-ecosystems" href="http://get.adobe.com/flashplayer/">Get the Flash Player to see this video</a>
+</video>
+
+<div class="transcript">
+    <div lang="en">
+        <h4>Transcript</h4>
+        <p>
+          <span data-begin="0" data-end="14">Ecosystems supply goods such as food and provide services such as waste assimilation for us to use. These services are free of charge but they have a critical value that we have taken for granted. Let&rsquo;s look at an example.</span>
+        </p>
+        <p>
+          <span data-begin="14" data-end="29">A cloud masses, the sky darkens, leaves twist upwards and we know that it will rain. We also know that the storm run-off will feed into groundwater miles away and that the sky will clear by tomorrow.</span>
+          <span data-begin="29" data-end="46">All these events are distant in time and space but are connected with the same pattern. Each pattern has an influence on the rest, often hidden from view. We can only understand the system of a rainstorm by contemplating the whole over a long period of time.</span>
+        </p>
+        <p>
+          <span data-begin="46" data-end="64">Most natural ecosystems are closed loops, meaning they produce no waste. Everything is broken down and used within the system, the climate being a good example of this. A successful ecosystem goes on and on, balancing itself as it goes.</span>
+          <span data-begin="64" data-end="76">Most of the environmental problems we have created stem from the fact that we pollute these closed loop ecosystems or remove key materials and resources, creating imbalances and waste.</span>
+        </p>
+        <p>
+          <span data-begin="76" data-end="90">We are very much a part of these ecosystems; we have to interact with them in order to live, but in doing so we have upset their delicate balance. This has caused ecosystems to become stressed.</span>
+          <span data-begin="90" data-end="103">Many are now breaking down, which reduces their ability to provide us with the goods and services we take for granted. Thinking about the interactions in this way is called &lsquo;systems thinking&rsquo;.</span>
+         </p>
+         <p>
+          <span data-begin="103" data-end="118">To investigate how we and our built environment interact with ecosystems we have identified six areas: climate change, transport, resources, waste, water, and community.</span>
+          <span data-begin="118" data-end="128">As we look at each of these areas we will give some indication, through the built environment life cycle, of the impact that working towards sustainability may have on them.</span>
+        </p>
+    </div>
+</div>
+		</section>
+	</div>
+    
+        <div class="slide"> 
+      <section> 
+      <h3>Filmstrip</h3> 
+<div class="filmstripwrapper"> 
+  <div class="filmstripmenu"> 
+    <div class="filmstripcells"> 
+        <img class="cell" onClick="filmstripSelect(this)" onKeyPress="this.onclick()" src="resource/filmstrip/how-to.jpg" alt="Bees! Hundreds of Bees!" title="Bees! Hundreds of Bees!" /> 
+    <img class="cell" onClick="filmstripSelect(this)" onKeyPress="this.onclick()" src="resource/filmstrip/framework.jpg" alt="Create a framework for change" title="Create a framework for change" /> 
+    <img class="cell" onClick="filmstripSelect(this)" onKeyPress="this.onclick()" src="resource/filmstrip/leadership.jpg" alt="Get leadership" title="Get leadership" /> 
+    <img class="cell" onClick="filmstripSelect(this)" onKeyPress="this.onclick()" src="resource/filmstrip/stakeholders.jpg" alt="Engage stakeholders" title="Engage stakeholders" /> 
+    <img class="cell" onClick="filmstripSelect(this)" onKeyPress="this.onclick()" src="resource/filmstrip/issues.jpg" alt="Identify key issues" title="Identify key issues" /> 
+    <img class="cell" onClick="filmstripSelect(this)" onKeyPress="this.onclick()" src="resource/filmstrip/impact.jpg" alt="Classify which areas will impact on business activities" title="Classify which areas will impact on business activities" /> 
+    </div> 
+  </div> 
+  <div class="filmstripcontent"> 
+    <section class="filmcell"> 
+      <h4>Cell One</h4> 
+      <p>Some content goes here about the first cell.</p>
+    </section> 
+        <section class="filmcell"> 
+      <h4>Cell two</h4> 
+      <p>The content for the second cell goes here.</p> 
+    </section> 
+  </div> 
+</div>
+</section>
+</div>
+
+
+</section><!-- /topic -->
+
+  </div><!-- /slides -->
+</div><!-- /presentation -->
+<!-- End learning resource -->
+  <!-- Menu bar -->
+  <div id="menubar">
+    <menu id="menubarMain">
+  <li id="mainBtn" data-pairedmenu="mainMenu" title="Main menu">Main menu</li>
+      </menu>
+      <menu id="menubarPlayerControls">
+      <li id="homeBtn" title="Home" href="#slide1"><img data-btnstate="up" src="images/homeBtn-up.gif" /><img data-btnstate="down" src="images/homeBtn-down.gif" /></li>
+      <li id="printBtn" title="Print"><img data-btnstate="up" src="images/printBtn-up.gif" /><img data-btnstate="down" src="images/printBtn-down.gif" /></li>
+      <li id="soundBtn" data-pairedmenu="soundMenu" title="Sound"><img data-btnstate="up" src="images/soundBtn-up.gif" /><img data-btnstate="down" src="images/soundBtn-down.gif" /><div id="volume_display">???</div></li>
+    </menu>
+    <menu id="menubarSubtitles">
+      <li id="subtitlesBtn" data-pairedmenu="subtitleBox" title="Subtitles">Subtitles</li>
+    </menu>
+    <menu id="menubarSecondary" class="toolbar">
+      <li id="glossaryBtn" data-pairedmenu="glossaryBox" title="Glossary" class="secondaryMenuBtn">Glossary</li>
+      <li id="globalBtn" data-pairedmenu="globalMenu" title="Globalisation" class="secondaryMenuBtn">Globalisation</li>
+    </menu>
+    <menu id="menubarTransportControls">
+      <li id="prevBtn" title="Previous page"><img data-btnstate="disabled" src="images/prevBtn-disabled.gif" /><img data-btnstate="up" src="images/prevBtn-up.gif" /><img data-btnstate="hover" src="images/prevBtn-hover.gif" /><img data-btnstate="down" src="images/prevBtn-down.gif" /></li>
+      <li id="playPauseBtn" title="Toggle Play/Pause"><img src="images/playBtnDisabled.gif" /><img src="images/pauseBtnUp.gif" /><img src="images/playBtnUp.gif" /><img src="images/pauseBtnHover.gif" /><img src="images/playBtnHover.gif" /><img src="images/pauseBtnDown.gif" /><img src="images/playBtnDown.gif" /></li>
+      <li id="nextBtn" title="Next page"><img data-btnstate="disabled" src="images/nextBtn-disabled.gif" /><img data-btnstate="up" src="images/nextBtn-up.gif" /><img data-btnstate="hover" src="images/nextBtn-hover.gif" /><img data-btnstate="down" src="images/nextBtn-down.gif" /></li>
+    </menu>
+</div>
+<!-- End menu bar -->
+<!-- Menus -->
+<div id="mainMenu">
+<h2>Main menu</h2><img class="closeBtn" src="images/closeBtn.png" />
+<nav type="list">
+  <li><h3>Topics</h3>
+  <ul>
+    <li onclick="slideshow.goto(1)" onkeypress="this.onclick()">Home page</li>
+    <li onclick="slideshow.goto(2)" onkeypress="this.onclick()">Ecosystems</li>
+    <li onclick="slideshow.goto(3)" onkeypress="this.onclick()">Filmstrip</li>
+  </ul>
+  </li>
+  <li><h3>External links</h3>
+  <ul>
+    <li><a href="http://www.google.com">Some website</a></li>
+  </ul>
+  </li>
+</nav>
+</div>
+
+<menu type="list" id="soundMenu"><img class="volumeCloseBtn" src="images/closeBtn.png" />
+        <div id="volumeSlider"></div>
+</menu>
+
+<div id="subtitleBox"><img class="closeBtn" src="images/closeBtn.png" />
+  <p id="caption">There are no subtitles for this part of the resource.</p>
+</div>
+
+<div id="glossaryBox" class="popupMenu"><img class="closeBtn" src="images/closeBtn.png" />
+<h2>Glossary</h2>
+   <div class="glossary-container">
+        <ul class="letters">
+            <li id="letter-a">A</li>
+            <li id="letter-b">B</li>
+            <li id="letter-c">C</li>
+            <li id="letter-d">D</li>
+            <li id="letter-e">E</li>
+            <li id="letter-f">F</li>
+            <li id="letter-g">G</li>
+            <li id="letter-h">H</li>
+            <li id="letter-i">I</li>
+            <li id="letter-j">J</li>
+            <li id="letter-k">K</li>
+            <li id="letter-l">L</li>
+            <li id="letter-m">M</li>
+            <li id="letter-n">N</li>
+            <li id="letter-o">O</li>
+            <li id="letter-p">P</li>
+            <li id="letter-q">Q</li>
+            <li id="letter-r">R</li>
+            <li id="letter-s">S</li>
+            <li id="letter-t">T</li>
+            <li id="letter-u">U</li>
+            <li id="letter-v">V</li>
+            <li id="letter-w">W</li>
+            <li id="letter-x">X</li>
+            <li id="letter-y">Y</li>
+            <li id="letter-z">Z</li>
+        </ul>
+    </div>
+    <div class="content-container">
+        <div id="content-for-letter-a">
+        	<div class="entry">
+	            <div class="term">allosaurus</div>
+                <div class="definition">Allosaurus is one of the best known carnosaurs. Sixty individuals, from juveniles to adults, were found at one site in Utah. It is likely that Allosaurus may have been the most common carnosaur of the Late Jurassic. Despite its size, Allosaurus is thought to have been a speedy hunter, running with a 3.7-meter-long stride at up to 20 mph. Its most distinguishing characteristic is the presence of two short horns, above and in front of each eye.</div>
+            </div>
+            <div class="entry">
+	            <div class="term">amosaurus</div>
+                <div class="definition">A medium-sized member of the prosauropod family, this primitive plant-eater was characterized by a small head, long neck and large body. Discovered in a quarry in Connecticut in the late 1800s, only the back half of the specimen was rescued by Othniel Charles Marsh; the front half having already been sawed into blocks to build a bridge near South Manchester. In 1969, more parts of the Ammosaurus were discovered when a nearby sandstone bridge was demolished.</div>
+            </div>
+        </div>
+        <div id="content-for-letter-b">
+        	<div class="entry">
+	            <div class="term">bagaceratops</div>
+                <div class="definition">Discovered in the Gobi desert of Mongolia, Bagaceratops was a small, primitive ceratopsian. It had a very small horn on its nose and its neck was protected by a very short frill. Glossary In Asia, the protoceratopsians were prevalent during the Late Cretaceous, while no certain neoceratopsians are known, whereas at the same time in North America, the neoceratopsians were more prevalent and only a few protoceratopsians have been discovered.</div>
+            </div>
+            <div class="entry">
+	            <div class="term">brachiosaurus</div>
+                <div class="definition">Brachiosaurus is one of the largest known land animals, based on a complete skeleton found in Tanzania. Each neck vertebra was more than 3 feet (1 meter) long. Its large nostrils were located on top of its head, which caused speculation that Brachiosaurus might have spent time submerged in water. However, recent studies have shown that a creature as large as Brachiosaurus could not have inhaled and inflated its lungs against the water pressure at depths of total submergence. Its front legs were longer than its rear legs and it stood 24 feet (7.3 meters) at the shoulder. It had small narrow feet for its size and the first digit of the front foot had a claw as did the first three digits of the hind foot. The function of the claws is unknown though they may have been used for raking plants or in self defense.</div>
+            </div>
+        </div>
+        <div id="content-for-letter-c">
+        	<div class="entry">
+	            <div class="term">ceratops</div>
+                <div class="definition">Fragmentary remains, a pair of small brow horns and a three-horned head, were found in Montana and Colorado. The status of this dinosaur remains doubtful, as its remains may prove to be that of Chasmosaurus.</div>
+            </div>
+            <div class="entry">
+	            <div class="term">ceratosaurus</div>
+                <div class="definition">Ceratosaurus was found in western North America. It has horns above and forward of its eyes, resembling those of Allosaurus, but it Ceratosaurus derives its name from its extremely unusual, rather large nose horn. Because Ceratosaurus was a very large predator, it is not likely that the horn was a weapon. Possibly it was a secondary sex characteristic, identifying males or females; perhaps it was used in ritual mating battles between males. It has also been suggested that the horn was used by hatchlings to break out of their eggs.</div>
+            </div>
+        </div>
+        <div id="content-for-letter-d">
+        	<div class="entry">
+	            <div class="term">deinodon</div>
+                <div class="definition">Deinodon is known from fragmentary remains. Joseph Leidy, an anatomist from Philadelphia, named the first American dinosaurs in 1856 based on fossils brought back from Montana by Ferdinand Hayden. Leidy identified a jaw and 12 enormous teeth as belonging to a ferocious megalosaurid he christened Deinodon horridus. Upon further analysis of the remains since Deinodons discovery, the dinosaur was determined to actually be Tyrannosaurus, making Deinodon an invalid dinosaur.</div>
+            </div>
+            <div class="entry">
+	            <div class="term">diceratops</div>
+                <div class="definition">At one time Diceratops was thought to be a Triceratops, but recent study has shown that it is a different, two-horned species of ceratopsian.</div>
+            </div>
+        </div>
+        <div id="content-for-letter-e">
+        	<div class="entry">
+	            <div class="term">echinodon</div>
+                <div class="definition">Discovered in England and described by Sir Richard Owen in 1861, Echinodon was once considered to be a fabrosaurid, a family name that has now been abandoned. It may have been related to Scutellosaurus, a plant-eater with small bony armor plates on its back. Evidence suggests that armor found in England in 1879 and thought to belong to a lizard, may belong to Echinodon, thus moving it into the mostly quadrupedal Thyreophora suborder of ornithischians.</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<menu id="globalMenu" class="popupMenu"><img class="closeBtn" src="images/closeBtn.png" />
+<h2>Globalisation settings</h2>
+<section>
+  <form id="langlist">
+    <fieldset id="langbuttons">
+      <legend>Subtitle language</legend>
+      <input type="radio" name="lang" id="en" onClick="getCaptions('en');" checked>
+      <label for="en">English</label>
+    </fieldset>
+  </form>
+</section>
+</menu>
+<!--End menus -->
+
+</body>
+<script id="mainScriptFile" type="text/javascript" src="js/main.js"></script>
+</html>
